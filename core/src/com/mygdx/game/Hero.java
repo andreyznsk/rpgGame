@@ -40,10 +40,10 @@ public class Hero {
 
        if(!die) {
            batch.setColor(0,0,0,1);
-           batch.draw(hpBar, x - 20-3, y + 110-3, 106,26);
+           batch.draw(hpBar, x - 20-3, y + 110-3, 106,16);
 
            batch.setColor(1,0,0,1);
-           batch.draw(hpBar, x - 20, y + 110, 0, 0, hp, 20, 1, 1, 0, 0, 0, 80, 20, false, false);
+           batch.draw(hpBar, x - 20, y + 110, 0, 0, hp, 10, 1, 1, 0, 0, 0, 80, 20, false, false);
            batch.setColor(1,1,1,1);
        }
 
